@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music Player</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Ubuntu">
+    <script src="https://kit.fontawesome.com/de25fe9c0b.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="container">
+
+        <div class="music-player">
+            <nav>
+                <div class="circle">
+                    <i class="fa-solid fa-arrow-left"></i>
+                </div>
+                <div class="circle">
+                    <i class="fa-solid fa-bars"></i>
+                </div>
+            </nav>
+            <img onclick="play_or_pause()" src="" alt="" id="img">
+            <audio id="song0"><source src="mp3s/Don't Stop Me Now.mp3" type="audio/mpeg"></audio>
+            <audio id="song1"><source src="mp3s/Sweet Talkin' Woman.mp3" type="audio/mpeg"></audio>
+            <audio id="song2"><source src="mp3s/Fly Me To The Moon.mp3" type="audio/mpeg"></audio>
+            <audio id="song3"><source src="" type="audio/mpeg"></audio>
+            <h1 id="title">Don't stop me now</h1>
+            <p id="artist">Queen</p>
+            <input type="range" value="0" id="progress">
+
+            <div class="controls">
+                <div onclick="play_prev()"><i class="fa-solid fa-backward"></i></div>
+                <div onclick="play_or_pause()" id="ctrl_icon"><i class="fa-solid fa-play" id="act_button"></i></div>
+                <div onclick="play_next()"><i class="fa-solid fa-forward"></i></div>
+            </div>
+ 
+        </div>
+
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
