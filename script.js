@@ -80,16 +80,3 @@ progress.onchange=function(){
     song.play();
     act_button.classList ="fa-solid fa-pause";
 }
-
-// function play_or_pause(){
-//     if(act_button.classList == "fa-solid fa-pause"){
-//         song.pause();
-//         act_button.classList ="fa-solid fa-play";
-//     }
-//     else{
-//         song.play();
-//         act_button.classList ="fa-solid fa-pause";
-//     }
-// }
-
-
