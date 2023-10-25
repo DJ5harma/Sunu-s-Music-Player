@@ -8,19 +8,22 @@ let artist = document.getElementById("artist");
 
 let i = 0;
 let image_list = [
-    "thumbnails/Don't Stop Me Now.jpeg",
-    "thumbnails/Sweet Talkin' Woman.jpg",
-    "thumbnails/Fly Me To The Moon.png"
+    "Don't Stop Me Now.jpg",
+    "Sweet Talkin' Woman.jpg",
+    "Fly Me To The Moon.jpg",
+    "Gone, Gone, Gone.jpg"
 ];
 let titles = [ 
     "Don't Stop Me Now",
     "Sweet Talkin' Woman",
-    "Fly Me To The Moon"
+    "Fly Me To The Moon",
+    "Gone, Gone, Gone"
 ];
 let artists = [
     "Queen",
     "ELO",
-    "Frank Sinatra"
+    "Frank Sinatra",
+    "Phillip Phillips"
 ];
 
 image.src=image_list[0]; 
